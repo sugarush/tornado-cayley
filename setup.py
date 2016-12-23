@@ -15,6 +15,6 @@ setup(
         'tornado'
     ],
     dependency_links=[
-        'git+https://github.com/sugarush/python-cayley.git@a18592b49ee154cc1421d1bf99e9a6dd129f40bd#egg=python_cayley'
+        'git+https://github.com/sugarush/python-cayley.git@4a7aedcaa1bdec3d6723ab92651171d6f542af1a#egg=python_cayley'
     ]
 )
