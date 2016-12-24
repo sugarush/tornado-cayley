@@ -10,7 +10,7 @@ class CayleyClient(CayleyABC):
         self.client = AsyncHTTPClient()
 
     @gen.coroutine
-    def fetch(self, url, **kargs):
+    def fetch(self, path, **kargs):
         kargs['method'] = kargs.get('method', 'POST')
         request = HTTPRequest(self.url(path), **kargs)
         response = yield self.client.fetch(request, raise_error=False)
