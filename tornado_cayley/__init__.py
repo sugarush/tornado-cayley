@@ -1,6 +1,7 @@
 import json
 
 from tornado import gen
+from tornado.escape import to_basestring
 from tornado.httpclient import AsyncHTTPClient, HTTPRequest
 
 from cayley import CayleyABC
