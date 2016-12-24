@@ -4,6 +4,13 @@ from tornado.httpclient import AsyncHTTPClient, HTTPRequest
 from cayley import CayleyABC
 
 
+def encode(data):
+    return json.dumps(data, separators=(',',':')).replace("</", "<\\/")
+
+def decode(data):
+    return json.loads(to_basestring(data))
+
+
 class CayleyClient(CayleyABC):
 
     def initialize(self):
