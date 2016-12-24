@@ -1,7 +1,7 @@
 backports-abc==0.5
 certifi==2016.9.26
 pyley==0.1.2
--e git+https://github.com/sugarush/python-cayley.git@4a7aedcaa1bdec3d6723ab92651171d6f542af1a#egg=python_cayley
+-e git+https://github.com/sugarush/python-cayley.git@a0c56cc0c168ed624d91426d0dc5e788e9a9a3a7#egg=python_cayley
 requests==2.12.4
 singledispatch==3.4.0.3
 six==1.10.0
